@@ -20,6 +20,9 @@ class DistributeCoinsSolutionTest:
         tree = TreeNode[1, TreeNode[0, None, 3], 0]
         assert Solution.distributeCoins(self, tree) == 4
 
+        tree = TreeNode[2, 1, 0]
+        assert Solution.distributeCoins(self, tree) == 1
+
         tree = TreeNode[1, 0, TreeNode[0, None, 3]]
         assert Solution.distributeCoins(self, tree) == 4
 
