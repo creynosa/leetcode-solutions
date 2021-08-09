@@ -15,6 +15,7 @@ class TestSolution:
         assert twoSum.Solution.twoSum(self, [0, 0, 0, 0], 0) == [0, 1]
         assert twoSum.Solution.twoSum(self, [-1, -4, -3, 0], -7) == [1, 2]
         assert twoSum.Solution.twoSum(self, [-9, 0, 0, 0], -9) == [0, 1]
+        assert twoSum.Solution.twoSum(self, [-3, -2, 8, 99], 96) == [0, 3]
 
 
 if __name__ == "__main__":
